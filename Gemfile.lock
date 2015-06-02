@@ -338,3 +338,6 @@ DEPENDENCIES
   uglifier (>= 2.7.1)
   unicorn
   web-console (~> 2.0)
+
+BUNDLED WITH
+   1.10.2
