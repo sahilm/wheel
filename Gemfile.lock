@@ -17,11 +17,34 @@ GIT
       sass-rails
 
 GIT
+  remote: git://github.com/bigbinary/boxy-cap.git
+  revision: 09e1074418ff7ff57112d2af104879743149e4e3
+  specs:
+    boxy-cap (0.0.19)
+
+GIT
   remote: git://github.com/bigbinary/mail_interceptor.git
   revision: 3c6e9689e78a8edbf589d284b03a0146af421847
   specs:
     mail_interceptor (0.0.5)
       activesupport
+
+GIT
+  remote: git://github.com/capistrano/rails.git
+  revision: b5f41b6482a0f481077f351d058307b9b29c9fac
+  specs:
+    capistrano-rails (1.1.3)
+      capistrano (~> 3.1)
+      capistrano-bundler (~> 1.1)
+
+GIT
+  remote: git://github.com/leehambley/sshkit.git
+  revision: 6c49de940b160b4a209c0be0ed2b93296c25b81e
+  specs:
+    sshkit (1.7.1)
+      colorize (>= 0.7.0)
+      net-scp (>= 1.1.2)
+      net-ssh (>= 2.8.0)
 
 GIT
   remote: git://github.com/mhfs/devise-async.git
@@ -86,6 +109,16 @@ GEM
       thor
     browser (0.8.0)
     builder (3.2.2)
+    capistrano (3.4.0)
+      i18n
+      rake (>= 10.0.0)
+      sshkit (~> 1.3)
+    capistrano-bundler (1.1.4)
+      capistrano (~> 3.1)
+      sshkit (~> 1.2)
+    capistrano-rbenv (2.0.3)
+      capistrano (~> 3.1)
+      sshkit (~> 1.3)
     carrierwave (0.10.0)
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
@@ -98,6 +131,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.9.1)
+    colorize (0.7.7)
     daemons (1.1.9)
     debug_inspector (0.0.2)
     delayed_job (4.0.6)
@@ -188,6 +222,9 @@ GEM
       minitest (>= 5.0)
       ruby-progressbar
     multi_json (1.11.0)
+    net-scp (1.2.1)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.9.2)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     orm_adapter (0.5.0)
@@ -306,7 +343,12 @@ DEPENDENCIES
   activeadmin!
   arel
   bootstrap-sass (~> 3.3.3)
+  boxy-cap!
   browser
+  capistrano
+  capistrano-bundler
+  capistrano-rails!
+  capistrano-rbenv
   carrierwave
   daemons
   delayed_job_active_record
@@ -334,6 +376,7 @@ DEPENDENCIES
   spring
   sprockets-rails (= 3.0.0.beta1)
   sprockets-strict-mode
+  sshkit!
   thin
   uglifier (>= 2.7.1)
   unicorn
