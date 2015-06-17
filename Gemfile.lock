@@ -49,7 +49,7 @@ GIT
 
 GIT
   remote: git://github.com/sahilm/boxy-cap.git
-  revision: 488c2466d7e20cfea2cffe484d5be53b82c8b865
+  revision: 2a74b81c7bd63c777cf0b4289fe347850a0443bd
   ref: extract-database-specific-adapters
   specs:
     boxy-cap (0.0.19)
