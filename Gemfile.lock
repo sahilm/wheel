@@ -17,6 +17,13 @@ GIT
       sass-rails
 
 GIT
+  remote: git://github.com/bigbinary/boxy-cap.git
+  revision: 41e4d788ec65dc0fc3c16e943e479cfc8b0c5441
+  ref: extract-database-specific-adapters
+  specs:
+    boxy-cap (0.0.19)
+
+GIT
   remote: git://github.com/bigbinary/mail_interceptor.git
   revision: 3c6e9689e78a8edbf589d284b03a0146af421847
   specs:
@@ -52,13 +59,6 @@ GIT
   revision: 757e6d40b8e5ac7da56af5e32074723db305d9f4
   specs:
     tiny_tds (0.6.3.rc1)
-
-GIT
-  remote: git://github.com/sahilm/boxy-cap.git
-  revision: 7035f5ffc0022dc62ae5a6d20b621e3ff5ecfd4a
-  ref: extract-database-specific-adapters
-  specs:
-    boxy-cap (0.0.19)
 
 GEM
   remote: https://rubygems.org/

@@ -106,7 +106,7 @@ end
 
 # Attach comments to Active Record queries
 gem 'marginalia'
-gem 'boxy-cap', github: 'sahilm/boxy-cap', ref: 'extract-database-specific-adapters'
+gem 'boxy-cap', github: 'bigbinary/boxy-cap', ref: 'extract-database-specific-adapters'
 gem 'capistrano'
 gem 'capistrano-rbenv'
 gem 'capistrano-rails', github: 'capistrano/rails'
