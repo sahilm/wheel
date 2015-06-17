@@ -17,12 +17,6 @@ GIT
       sass-rails
 
 GIT
-  remote: git://github.com/bigbinary/boxy-cap.git
-  revision: 09e1074418ff7ff57112d2af104879743149e4e3
-  specs:
-    boxy-cap (0.0.19)
-
-GIT
   remote: git://github.com/bigbinary/mail_interceptor.git
   revision: 3c6e9689e78a8edbf589d284b03a0146af421847
   specs:
@@ -52,6 +46,13 @@ GIT
   specs:
     devise-async (0.9.0)
       devise (~> 3.2)
+
+GIT
+  remote: git://github.com/sahilm/boxy-cap.git
+  revision: 46099dcfe4d04fefd1e685ff65bb6c9bd38482ab
+  ref: extract-database-specific-adapters
+  specs:
+    boxy-cap (0.0.19)
 
 GEM
   remote: https://rubygems.org/
@@ -383,4 +384,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.10.2
+   1.10.4

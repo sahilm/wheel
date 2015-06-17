@@ -8,14 +8,10 @@ set :tmp_dir, '/data/tmp'
 # definition into the server list. The second argument
 # something that quacks like a has can be used to set
 # extended properties on the server.
-server 'localhost',
+server '54.173.154.41',
        user: 'deployer',
        roles: %w{web app db},
-       ssh_options: {
-           user:          'deployer',
-           auth_methods:  %w(publickey),
-           forward_agent: true
-       }
+       ssh_options: {:user=>"deployer", :auth_methods=>["publickey"], :forward_agent=>true}
 
 set :rails_env, :production
 fetch(:default_env).merge!(rails_env: :production)
