@@ -8,7 +8,7 @@ set :tmp_dir, '/data/tmp'
 # definition into the server list. The second argument
 # something that quacks like a has can be used to set
 # extended properties on the server.
-server '54.86.167.59',
+server '54.174.46.60',
        user: 'deployer',
        roles: %w{web app db},
        ssh_options: {:user=>"deployer", :auth_methods=>["publickey"], :forward_agent=>true}
