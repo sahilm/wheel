@@ -11,9 +11,7 @@ gem 'sprockets-rails', '3.0.0.beta1'
 gem 'sass-rails', '>= 5.0.3'
 gem 'uglifier', '>= 2.7.1'
 
-gem 'tiny_tds', github: 'rails-sqlserver/tiny_tds'
-gem 'activerecord-sqlserver-adapter', '~> 4.2.0'
-
+gem 'mysql2'
 # use "strict mode" in JavaScript
 gem 'sprockets-strict-mode'
 
