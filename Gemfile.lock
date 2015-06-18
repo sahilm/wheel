@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: git://github.com/bigbinary/boxy-cap.git
-  revision: 41e4d788ec65dc0fc3c16e943e479cfc8b0c5441
+  revision: 86f22832c355796914d044d5c1f6ec04053d5b25
   ref: extract-database-specific-adapters
   specs:
     boxy-cap (0.0.19)
