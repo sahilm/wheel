@@ -11,7 +11,7 @@ gem 'sprockets-rails', '3.0.0.beta1'
 gem 'sass-rails', '>= 5.0.3'
 gem 'uglifier', '>= 2.7.1'
 
-gem 'pg'
+gem 'mysql2'
 # use "strict mode" in JavaScript
 gem 'sprockets-strict-mode'
 
