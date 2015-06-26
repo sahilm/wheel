@@ -42,7 +42,7 @@ set :bundle_without, %w{development test utils}.join(' ')
 
 set :git_tag_name, proc { Time.now.to_s.gsub(/[-\s\:\+]+/, '-') }
 
-set :template_dir, 'config/deploy/templates/database_pg.yml.erb'
+set :template_dir, 'config/deploy/templates/database_mysql.yml.erb'
 
 set :bundle_jobs, 4
 
